@@ -27,7 +27,7 @@ def isSafe(m_queen, nqueen):
 
 
 def print_result(m_queen, nqueen):
-    """ Method that prints the list with the Queens positions
+    """ Method for printing the list with the Queens positions
     Args:
         m_queen: array that has the queens positions
         nqueen: queen number
@@ -42,7 +42,7 @@ def print_result(m_queen, nqueen):
 
 
 def Queen(m_queen, nqueen):
-    """ Recursive function that executes the Backtracking algorithm
+    """ Function that executes the Backtracking algorithm
     Args:
         m_queen: array that has the queens positions
         nqueen: queen number
